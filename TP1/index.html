@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="javascript.js"></script>
+    <script src="axios.min.js"></script>
+    <style ></style>
 </head>
 <body>
     <div>
-        <h1>Hello LIU Yi</h1>
+        Ex1<button onclick="sayHelloWorld();">click me!</button>
+    </div>
+    <br>
+    <div>
+       Ex2
+       <button id="Ex2Button1" onclick="SwitchButtons('Ex2Button1');">botton 1</button>
+       <button id="Ex2Button2" onclick="SwitchButtons('Ex2Button2');">botton 2</button>
+    </div>
+    <br>
+    <div>
+        Ex3
+        <form`>
+            <input type="text" id="num" value="">
+            <input type="button" value="Check" onclick="isPrim()">
+        </form>
+    </div>
+    <br>
+    <div>
+        Ex4
+        <br><br>
+        <form id="axios">
+            fullname<input type="text" id="name" value="">
+           <br>
+            age &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="age" value="">
+            <br>
+            <input type="button" value="Check" onclick="axios">
+        </form>
     </div>
 </body>
 </html>
